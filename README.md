@@ -1,4 +1,4 @@
-### Запуск Nextflow с помощью Kubernetes
+### Запуск Nextflow + Wave с помощью Kubernetes
 
 #### Проблема: при запуске Nextflow pipeline с помощью Kubernetes возникает ошибка "Process terminated for an unknown reason"
 
@@ -70,7 +70,7 @@ metadata:
 $ nextflow kuberun https://github.com/Mirocow/nextflow-example-1 -r main -head-image 'nextflow/nextflow:22.10.8' -v nextflow-pvc:/mnt -profile kubernetes --outdir /tmp
 ```
 
-### Запуск Nextflow с помощью Docker
+### Запуск Nextflow + Wave с помощью Docker
 
 #### Запуск
 
